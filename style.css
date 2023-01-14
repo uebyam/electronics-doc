@@ -1,0 +1,54 @@
+:root {
+	--bgcol-1: rgb(20, 20, 20);
+	--bgcol-2: rgb(30, 30, 30);
+	--bgcol-3: rgb(45, 45, 45);
+	--bgcol-4: rgb(60, 60, 60);
+	--bgcol-5: rgb(80, 80, 80);
+	--textcol: rgb(200, 200, 200);
+}
+
+body {
+	margin: 1rem;
+	background-color: var(--bgcol-1);
+	color: var(--textcol);
+	tab-size: 4;
+}
+
+#container {
+	max-width: 60rem;
+}
+
+#container-table {
+	width: 100%;
+	height: fit-content;
+	border-spacing: 10px;
+}
+
+#main-content-header, #explorer-header {
+	text-align: center;
+	width: 100%;
+}
+
+#explorer {
+	padding: 0.8rem;
+	background-color: var(--bgcol-2);
+	border-radius: 16px;
+	width: 15rem;
+	vertical-align: top;
+}
+
+#main-content {
+	padding: 0.8rem;
+	background-color: var(--bgcol-2);
+	border-radius: 16px;
+	height: 100%;
+}
+
+.code {
+	font-family: "Courier New";
+	background-color: var(--bgcol-3);
+	border-radius: 8px;
+	padding: 0.8rem;
+	margin-top: 0.8rem;
+	margin-bottom: 0.8rem;
+}
